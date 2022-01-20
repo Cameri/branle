@@ -16,7 +16,6 @@ const getMainnetRelays = () => {
     ['wss://nostr-relay.wlvs.space', {read: true, write: true}],
     ['wss://nostr.bitcoiner.social', {read: true, write: true}],
     ['wss://nostr-relay.freeberty.net', {read: true, write: true}],
-    ['wss://jgqaglhautb4k6e6i2g34jakxiemqp6z4wynlirltuukgkft2xuglmqd.onion', {read: true, write: true}],
   ]
 
   for (let i = 0; i < 3; i++) {
